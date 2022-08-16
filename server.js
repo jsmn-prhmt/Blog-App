@@ -18,7 +18,8 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 // register view engine
 server.set('view engine', 'ejs');
 
-// middleware & static fileserver.use(express.static('public'));
+// middleware & static file
+server.use(express.static('public'));
 server.use(express.urlencoded({ extended: true }));
 server.use(morgan('dev'));
 server.use((req, res, next) => {
