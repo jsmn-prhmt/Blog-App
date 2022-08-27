@@ -1,4 +1,4 @@
-# Blog
+# Blog App
 A simple Node js CRUD style blog app to list all the blogs, add new blogs & delete blogs (get, post and delete requests).   
 Using Express, view engines, middleware and MongoDB (Mongoose).
 
